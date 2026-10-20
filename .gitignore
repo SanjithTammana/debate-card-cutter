@@ -8,6 +8,7 @@ venv/
 .ipynb_checkpoints/
 data/*
 !data/README.md
+!data/LICENSE.md
 !data/formatting_profile.json
 !data/synthetic_card.json
 outputs/

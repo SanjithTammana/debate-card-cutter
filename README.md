@@ -66,3 +66,7 @@ The [public data package](data/README.md) contains a text-free formatting profil
 The full evidence corpus, per-card text and spans, FAISS index, pickled metadata, trained weights, and DOCX files are not included. The local source collection appears to include OpenCaselist disclosure files and third-party publications. Public access to those files does not establish permission to republish them. You need to create or provide data you are allowed to use to run retrieval or training.
 
 This repository records research prototypes. It does not establish that a generated card is faithful to its source or that a tagline is supported by the highlighted words. Human review is required before using a cut in a round.
+
+## License
+
+The original code, notebooks, documentation, and synthetic card fixture in this repository are licensed under [MIT](LICENSE), copyright 2026 Sanjith Tammana. The aggregate [`formatting_profile.json`](data/formatting_profile.json) has a separate [CC BY 4.0 license](data/LICENSE.md). These licenses cover only material we can license; they do not grant rights to the excluded debate files, source articles, external models, or dependencies.

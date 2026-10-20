@@ -4,6 +4,10 @@
 
 `synthetic_card.json` shows the `tag`, `cite`, `text_body`, and formatting-range schema using invented text. Ranges use zero-based, end-exclusive Unicode code-point offsets. The example is a software fixture, not debate evidence.
 
+## License
+
+The aggregate `formatting_profile.json` is licensed under [CC BY 4.0](LICENSE.md); credit Sanjith Tammana and link to this repository and the license when sharing it. The invented `synthetic_card.json` fixture and the export script are covered by the repository's [MIT license](../LICENSE). Neither license covers the source card text or DOCX files used for local preprocessing.
+
 To regenerate the profile from a compatible local JSON file (Node.js 18 or later):
 
 ```bash
