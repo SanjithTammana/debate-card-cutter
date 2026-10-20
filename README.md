@@ -61,6 +61,8 @@ Some notebooks expect Google Colab, Google Drive paths, GPU hardware, external m
 
 ## Data and limits
 
-The evidence corpus, generated JSON, FAISS index, pickled metadata, trained weights, and DOCX files are not included. These artifacts are large and can contain full text from third-party debate evidence and source publications. You need to create or provide your own data to run retrieval or training.
+The [public data package](data/README.md) contains a text-free formatting profile derived from 4,869 locally parsed cards, a synthetic example of the card schema, and a script to regenerate the profile from a compatible JSON file. It supports analysis of span frequency and data quality, but cannot run retrieval or train a text model by itself.
+
+The full evidence corpus, per-card text and spans, FAISS index, pickled metadata, trained weights, and DOCX files are not included. The local source collection appears to include OpenCaselist disclosure files and third-party publications. Public access to those files does not establish permission to republish them. You need to create or provide data you are allowed to use to run retrieval or training.
 
 This repository records research prototypes. It does not establish that a generated card is faithful to its source or that a tagline is supported by the highlighted words. Human review is required before using a cut in a round.

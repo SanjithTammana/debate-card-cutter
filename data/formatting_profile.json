@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "description": "Aggregate, text-free measurements of a local CardCutter preprocessing output.",
+  "cards": 4869,
+  "nonempty_bodies": 4869,
+  "body_length_codepoints": {
+    "min": 95,
+    "median": 4251,
+    "p90": 15976,
+    "p99": 49949,
+    "max": 193298
+  },
+  "body_length_histogram_codepoints": {
+    "0-99": 5,
+    "100-249": 19,
+    "250-499": 82,
+    "500-999": 375,
+    "1000-2499": 1089,
+    "2500-4999": 1124,
+    "5000-9999": 1230,
+    "10000-24999": 710,
+    "25000-49999": 187,
+    "50000-99999": 40,
+    "100000+": 8
+  },
+  "spans_per_card": {
+    "min": 3,
+    "median": 64,
+    "p90": 179,
+    "p99": 450,
+    "max": 1383
+  },
+  "cards_with_invalid_spans": 118,
+  "formatting": {
+    "underline_ranges": {
+      "cards_with_spans": 4869,
+      "span_count": 156506,
+      "valid_span_count": 156410,
+      "invalid_span_count": 96,
+      "valid_span_characters": 6674256,
+      "covered_characters_within_kind": 6674256
+    },
+    "emphasis_ranges": {
+      "cards_with_spans": 4869,
+      "span_count": 106351,
+      "valid_span_count": 106330,
+      "invalid_span_count": 21,
+      "valid_span_characters": 1829692,
+      "covered_characters_within_kind": 1829692
+    },
+    "highlight_ranges": {
+      "cards_with_spans": 4869,
+      "span_count": 175123,
+      "valid_span_count": 175113,
+      "invalid_span_count": 10,
+      "valid_span_characters": 3073935,
+      "covered_characters_within_kind": 3073935
+    }
+  },
+  "notes": [
+    "Ranges are zero-based, end-exclusive Unicode code-point offsets in text_body.",
+    "A valid range has integer endpoints with 0 <= start < end <= body length.",
+    "Valid span characters count overlaps; covered characters are the union within each formatting kind.",
+    "The profile does not contain tags, citations, body text, filenames, or per-card records."
+  ]
+}

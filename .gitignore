@@ -6,7 +6,10 @@ __pycache__/
 .venv/
 venv/
 .ipynb_checkpoints/
-data/
+data/*
+!data/README.md
+!data/formatting_profile.json
+!data/synthetic_card.json
 outputs/
 models/
 *.pkl

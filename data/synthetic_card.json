@@ -1,0 +1,8 @@
+{
+  "tag": "Synthetic transit example",
+  "cite": "Invented example; no external source",
+  "text_body": "The city added two buses. Average waits fell on weekdays, but weekend waits were not measured.",
+  "underline_ranges": [[9, 24], [26, 56]],
+  "emphasis_ranges": [[26, 39]],
+  "highlight_ranges": [[26, 56]]
+}
